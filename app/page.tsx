@@ -7,7 +7,7 @@ export default async function Page() {
   const posts = allCoreContent(sortedPosts)
   return (
     <>
-    <Main posts={posts} />
+      <Main posts={posts} />
     </>
   )
 }

@@ -1,4 +1,3 @@
-
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import CustomLink from './Link'

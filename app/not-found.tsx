@@ -1,5 +1,4 @@
-import CustomLink from "@/components/Link";
-
+import CustomLink from '@/components/Link'
 
 export default function NotFound() {
   return (
