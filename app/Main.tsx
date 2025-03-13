@@ -84,6 +84,8 @@ export default function Home({ posts }) {
                   <Image
                     src={post.images?.[0] || `https://source.unsplash.com/random/400x400?${index}`}
                     alt={post.title}
+                    width={400}  // Specify a width
+                    height={400} // Specify a height
                     className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 </CustomLink>
